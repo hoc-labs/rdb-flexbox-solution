@@ -34,11 +34,16 @@ Work on getting the basic content with the container styles we reviewed above.
 * use a `<span>`, and a compound style, to target the text within the title.
 * add the display:flex to flex the 2nd and 3rd rows.
 * create a modifier class (a class used in addition to the main .col class) to set the background color on the two divs that need a dark background color.
-* create modifier classes to set the widths of the different columns.
+  * col-bg: sets the dark background-color
 
-If you take a look at the image below, you can see the naming convention used for the modifier columns. 
+## Column Widths
 
-* col-bg: set the dark background-color
+You will need to create modifier classes to set the widths of the different columns.
+
+If you take a look at the image below, you can see a possible naming convention used for the modifier columns to set the widths.
+
+We can use .col for the default width. Only put it on the columns that have the default width.
+
 * col, col-2, col-3: how many columns the column takes up. we can then use this to set the column width as a percentage of the total number of columns:
   * col: 25%
   * col-2: 50%
